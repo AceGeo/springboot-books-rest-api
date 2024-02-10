@@ -14,7 +14,7 @@ Data is stored in a MySQL database.
 
 ## Installation
 
-1. Download the repository: `git clone https://github.com/AceGeo/springboot-books-rest-api`
+1. Download the repository: `https://github.com/AceGeo/springboot-books-rest-api`
 2. Open your IDE 
 3. Open the project
 4. Run the application
