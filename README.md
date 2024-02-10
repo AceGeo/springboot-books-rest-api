@@ -11,9 +11,6 @@ Data is stored in a MySQL database.
 - [Endpoints](#endpoints)
 - [Authentication](#authentication)
 - [Database Configuration](#database-configuration)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -34,17 +31,21 @@ Build and run the application:
 Access the application at http://localhost:8080.
 
 2. Authentication
+ 
 Certain endpoints require authentication. Make your credentials in order to create 1 admin and 1 user:
 
 3. Postman
+ 
 Use the postman in order to send requests and get responses of the endpoints.  
 
-5. Create a Category
+4. Create a Category
+
 Create a new book category via postman:
 
 Select the POST , add the spesific endpoint, open the authorization field and select basic auth, then add your credentials
 
-6. Add a Category
+5. Add a Category
+
 Add a category with details :
 {
     "name": "Science Fiction",
@@ -53,7 +54,8 @@ Add a category with details :
 
 http://localhost:8080/api/categories
 
-7. Add a Book
+6. Add a Book
+   
 Add a book with details :
 
 In the field Body , select the "raw" and the "JSON" format from the picklist, then give a JSON request :
@@ -68,14 +70,16 @@ In the field Body , select the "raw" and the "JSON" format from the picklist, th
   }
 http://localhost:8080/api/books
 
-8. Get All/Get {id} Books
+7. Get All/Get {id} Books
+
 Retrieve a list of all books via "GET" :
 http://localhost:8080/api/books
 
 Retrieve a specific book via "GET" :
 http://localhost:8080/api/books/{id}
 
-9. Create a Review
+8. Create a Review
+
 Create a review for a book:
 {
    "body": "",
