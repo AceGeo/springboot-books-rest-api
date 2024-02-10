@@ -14,10 +14,14 @@ Data is stored in a MySQL database.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/AceGeo/springboot-books-rest-api`
-2. Navigate to the project directory: `cd springboot-books-rest-api`
-3. Build the project: `./mvnw clean install`
-4. Run the application: `./mvnw spring-boot:run`
+1. Download the repository: `git clone https://github.com/AceGeo/springboot-books-rest-api`
+2. Open your IDE 
+3. Open the project
+4. Run the application
+5. Open the Postman
+6. Send Requests
+7. Open your Workbench
+8. Check your database
 
 ## Usage
 
