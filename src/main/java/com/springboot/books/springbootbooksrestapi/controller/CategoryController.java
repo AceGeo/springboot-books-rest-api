@@ -18,7 +18,7 @@ import java.util.List;
 @RequestMapping("/api/categories")
 @AllArgsConstructor
 @Tag(
-        name= "CRUD REST APIs for Categories of the Movies"
+        name= "CRUD REST APIs for Categories of the Books"
 )
 public class CategoryController {
     private CategoryService categoryService;

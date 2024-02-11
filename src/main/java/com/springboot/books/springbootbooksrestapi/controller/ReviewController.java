@@ -20,7 +20,7 @@ import java.util.List;
 @AllArgsConstructor
 @RequestMapping("/api")
 @Tag(
-        name= "Post reviews for the Movies by Id REST APIs"
+        name= "CRUD REST APIs for Reviews of the Books"
 )
 //Creation of Review CRUD endpoints
 public class ReviewController {

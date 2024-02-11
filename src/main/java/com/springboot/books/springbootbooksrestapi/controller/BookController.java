@@ -26,7 +26,6 @@ public class BookController {
 
     private BookService bookService;
 
-
      //Create a new review for a specific book.
      //param bookId    The ID of the book for which the review is being created.
      //param reviewDto The review data provided in the request body.

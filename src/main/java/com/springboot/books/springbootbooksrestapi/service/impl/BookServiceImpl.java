@@ -35,7 +35,6 @@ public class BookServiceImpl implements BookService {
         // Create Entity to Dto
         BookDto bookResponse = mapTODTO(newBook);
         return bookResponse;
-
     }
 
     // Implementation of the getAllBooks method from the BookService interface
